@@ -1,0 +1,17 @@
+[project]
+name = "eeg"
+version = "0.1.0"
+description = "eegvtwo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.0.0",]
+[[project.authors]]
+name = "m3lander"
+email = "melanderhgs@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+eeg = "eeg:main"
